@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj": {}
+    "C:\\Users\\user\\Documents\\AllFilesInOne\\Source Code\\source-dot-net-core\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj": {
+    "C:\\Users\\user\\Documents\\AllFilesInOne\\Source Code\\source-dot-net-core\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\AllFilesInOne\\Source Code\\source-dot-net-core\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj",
         "projectName": "MagiVillaAPI",
-        "projectPath": "C:\\Users\\user\\source\\repos\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\AllFilesInOne\\Source Code\\source-dot-net-core\\MagiVilla\\MagiVillaAPI\\MagiVillaAPI.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\MagiVilla\\MagiVillaAPI\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\AllFilesInOne\\Source Code\\source-dot-net-core\\MagiVilla\\MagiVillaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[6.1.0, )"
